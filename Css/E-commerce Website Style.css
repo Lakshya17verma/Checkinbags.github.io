@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+
+  font-family: "Mochiy Pop P One", sans-serif;
+
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav {
+  flex: 1;
+  text-align: center;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  font-weight: bolder;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 30px;
+}
+nav ul li {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: black;
+  size: 20px;
+}
+p {
+  color: black;
+}
+
+.my-button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px grey;
+  transition: transform 0.3s ease;
+}
+.my-button::after. .my-button::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: black;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+.my-button:hover {
+  transform: translate(12px, 12px);
+}
+.my-button:hover::after {
+  transform: translate(-6px, -6px);
+}
+.my-button:hover::before {
+  transform: translate(12px, 12px);
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+  font-family: "Mochi Pop P One", sans-serif;
+
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 40px 0;
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+
+
+}
+.btn {
+  size: 30px;
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn :hover {
+  background: #1432b9;
+}
+.header {
+  background: radial-gradient(#fff, #6480d3);
+}
+.header .row {
+  margin-top: 70px;
+}
+
+.categories {
+  margin: 70px 0;
+}
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Search {
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: white;
+  display: inline-block;
+  align-items: left;
+  justify-content: center;
+  border: 3px, solid, black;
+  border-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+}
+.search-box {
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  position: relative;
+  border: black, 2px;
+  padding: 1.2rem;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.col-4 img {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: black;
+}
+.title::after {
+  content: "";
+  background: black;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title-1 {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: black;
+}
+.title-1::after {
+  content: "";
+  background: black;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h4 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.col-4 p {
+  font-size: 14px;
+}
+.rating {
+  color: orange;
+}
+.col-4:hover {
+  transform: translateY(-5px);
+}
+.logo{
+  padding-right: 100px;
+}
+.bold-qoute { font-size: 60px;
+  font-family: 'Alfa Slab One', cursive;
+
+   }
+
+.qoute-2 { font-size: 30px;
+  font-family: 'Bebas Neue', cursive }
+
+#Feedbacks {background-color: white;
+ }
+.person{ font-size: 2rem;
+                  line-height: 1.5;
+                  margin: auto;}
+
+
+.testimonial-image{width: 20%;
+                  height: 20%;
+                margin: 40px;
+                border-radius: 100%;
+                }
+
+.testimonial-text {text-align: left;}
