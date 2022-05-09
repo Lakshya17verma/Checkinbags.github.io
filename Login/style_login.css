@@ -1,0 +1,214 @@
+body{  background: radial-gradient(#fff, #6480d3);
+
+
+       
+        
+      }
+
+.rectangle {width: 700px;
+            height: 500px;
+            border-radius: 32px;
+            opacity: 1;
+            margin: auto;
+            margin-left: 418px;
+            margin-top: 70px;
+            background: radial-gradient(#fff, #6480d3);
+       }
+.cancel { width: 50px;
+          height: 50px;
+          margin-left: 650px;
+          cursor: pointer;
+          border: solid 0px;
+          border-radius: 32px;
+          
+          }
+.inner_rectangle-1 { width: 350px;
+                     height: 400px;
+                     background: black;
+
+                     text-align: center;
+                    float: left;
+                    margin-top: 0px;
+                    margin-left: 50px;
+                    
+                
+                    
+                
+                  
+                    
+                }
+.inner_rectangle-2 { text-align: center;
+        width: 250px;
+        height: 400px;
+        background-color: rgb(245, 249, 242);
+         float: right;
+         margin-top: 0px;
+         margin-right: 50px;
+              
+}
+.logo { width: 250px ;
+         height: 100px;
+
+}
+     
+h1{ color: white;
+        font-family: 'Mochiy Pop One', sans-serif;}
+
+.qoutes-2 { font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+
+}
+.qoutes-1 { text-align: left;
+            margin-left: 25px;
+
+}
+.field_class { width: 200px;
+               height: 25px;
+               margin-top: 8px;
+               text-align: left;
+               letter-spacing: 1px;
+               font-family: 'Montserrat', sans-serif;
+               border-radius: 8px;
+               border: solid black 1px;
+               font-size: 13px;
+               text-indent: 6px;    
+               margin-left: 2px;        
+        
+
+
+}
+
+.submit_class { width: 208px;
+                height: 30px;
+                margin-top: 8px;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+               cursor: pointer;
+               background-color:black;
+               color: white;
+               border-radius: 8px;
+}
+.submit_class:hover { background-color: white;
+                      color: black;
+                }
+.creat-account { font-style: normal;
+                 color: blue;
+                 text-decoration: solid;
+}
+.model-1 { float: left;
+          margin-top: -115px;}
+          
+hr { width: auto;
+    height: 3px;
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 100px;
+
+}
+.social { text-align: center;
+         margin-top: 20px;
+         font-family: 'Lato', sans-serif;
+         font-weight: bold;
+         font-size: 30px;
+        }
+
+.follow { float: left;
+         margin: auto;
+
+}
+.social-icon { color: #fff;
+
+}
+.social-icons li {
+        vertical-align: top;
+        display: inline;
+        height: 100px;
+    }
+    ul.social-icons {
+        margin-top: 10px;}
+
+ ul {
+                padding:0;
+                list-style: none;} 
+
+
+                ul {
+                        padding:0;
+                        list-style: none;
+                    }
+                    .footer-social-icons {
+                        width: 350px;
+                        display:block;
+                        margin: 0 auto;
+                    }
+                    .social-icon {
+                        color: #fff;
+                    }
+                    ul.social-icons {
+                        margin-top: 5px;
+                        text-align: center;
+                        margin-top: 25px;
+                    }
+                    .social-icons li {
+                        vertical-align: top;
+                        display: inline;
+                        height: 100px;
+                    }
+                    .social-icons a { margin-top: 15px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                    .fa-facebook {
+                        padding:10px 14px;
+                        -o-transition:.5s;
+                        -ms-transition:.5s;
+                        -moz-transition:.5s;
+                        -webkit-transition:.5s;
+                        transition: .5s;
+                        background-color: #322f30;
+                    }
+                    .fa-facebook:hover {
+                        background-color: #3d5b99;
+                    }
+                    .fa-twitter {
+                        padding:10px 12px;
+                        -o-transition:.5s;
+                        -ms-transition:.5s;
+                        -moz-transition:.5s;
+                        -webkit-transition:.5s;
+                        transition: .5s;
+                        background-color: #322f30;
+                    }
+                    .fa-twitter:hover {
+                        background-color: #00aced;
+                    }
+        
+                    
+                    .fa-youtube {
+                        padding:10px 14px;
+                        -o-transition:.5s;
+                        -ms-transition:.5s;
+                        -moz-transition:.5s;
+                        -webkit-transition:.5s;
+                        transition: .5s;
+                        background-color: #322f30;
+                    }
+                    .fa-youtube:hover {
+                        background-color: #e64a41;
+                    }
+                    .fa-linkedin {
+                        padding:10px 14px;
+                        -o-transition:.5s;
+                        -ms-transition:.5s;
+                        -moz-transition:.5s;
+                        -webkit-transition:.5s;
+                        transition: .5s;
+                        background-color: #322f30;
+                    }
+                    .fa-linkedin:hover {
+                        background-color: #0073a4;
+                    }
+                    
